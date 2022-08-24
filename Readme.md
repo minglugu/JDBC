@@ -22,6 +22,16 @@ drop database db_name;
 data types:
 https://dev.mysql.com/doc/refman/5.7/en/data-types.html
 
+             MySQL           Java
+1 byte       tinyint         byte
+2 bytes      smallint        short
+4 bytes      int             int
+8 bytes      bigint          long
+
+4 bytes      float(M, D)  M digits in total, of which D digits may be after the decimal point.S    
 
 
-  
+-- show tables in a database
+mysql> use onlinemusic;
+Database changed
+mysql> show tables;
