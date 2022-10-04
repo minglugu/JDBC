@@ -1,4 +1,5 @@
 MySQL Queries:
+reference URL: https://www.mysqltutorial.org/mysql-show-tables/
 
 -- show exisiting databases
 show databases;
